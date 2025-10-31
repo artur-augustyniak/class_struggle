@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  jupyter:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      -  ${PWD}/notebooks:/workspace
+    working_dir: /workspace
+    command: ["jupyter", "notebook", "--ip=0.0.0.0", "--allow-root", "--NotebookApp.token=''", "--NotebookApp.password=''"]
+    environment:
+      - PYTHONUNBUFFERED=1

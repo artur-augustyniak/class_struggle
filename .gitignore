@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+notebooks/output_data/*
+!notebooks/output_data/.gitkeep
+notebooks/input_data/*
+!notebooks/input_data/.gitkeep

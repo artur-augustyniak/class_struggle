@@ -1,0 +1,11 @@
+notebook
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+torch
+umap-learn
+hdbscan
+plotly
+ipywidgets
