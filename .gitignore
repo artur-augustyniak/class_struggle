@@ -3,3 +3,6 @@ notebooks/output_data/*
 !notebooks/output_data/.gitkeep
 notebooks/input_data/*
 !notebooks/input_data/.gitkeep
+article/class_struggle.aux
+article/class_struggle.log
+article/class_struggle.out
